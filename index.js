@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", async (req, res) => {
-    res.status(200).send("Xin chào bạn");
+    res.status(200).send("Xin chào bạn. From PDTnhah with love");
 });
 
 // Start server
